@@ -10,9 +10,9 @@
         {% endif %}        
 
         {% if display_version == "kiwi" %}
-        <a href="fenix.html"><img class="img-fluid mx-auto mb-2" style="max-width: 2rem; filter: grayscale(100%); opacity: 0.8;" src="{{site.url}}/img/fenix.png"
+        <a href="{{site.url}}/fenix.html"><img class="img-fluid mx-auto mb-2" style="max-width: 2rem; filter: grayscale(100%); opacity: 0.8;" src="{{site.url}}/img/fenix.png"
                 alt=""></a>
-        <a href="kiwi.html"><img class="img-fluid mx-auto mb-2"
+        <a href="{{site.url}}/kiwi.html"><img class="img-fluid mx-auto mb-2"
                 style="max-width: 3rem;" src="{{site.url}}/img/kiwi.png" alt=""></a>
                 <span class="minified-heading">Kiwi - Features</span>
         {% endif %}        
@@ -52,14 +52,14 @@
             {% for post in site.posts %}
             {% if post.categories contains "fenix" and display_version == "fenix" %}
             <li class="navbar-item">
-                <a href="{{ post.url }}" class="nav-link js-scroll-trigger">VERZE {{ post.title }} -
+                <a href="{{site.url}}/{{ post.url }}" class="nav-link js-scroll-trigger">VERZE {{ post.title }} -
                     {{ post.date | date: "%d.%m.%Y" }}</a>
             </li>
             {% endif %}
 
             {% if post.categories contains "kiwi" and display_version == "kiwi" %}
             <li class="navbar-item">
-                <a href="{{ post.url }}" class="nav-link js-scroll-trigger">VERZE {{ post.title }} -
+                <a href="{{site.url}}/{{ post.url }}" class="nav-link js-scroll-trigger">VERZE {{ post.title }} -
                     {{ post.date | date: "%d.%m.%Y" }}</a>
             </li>
             {% endif %}

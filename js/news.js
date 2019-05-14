@@ -7,7 +7,7 @@ $(document).ready(function () {
         $(this).attr("id", headingId);
 
         // Vytvořím seznam h2 s odkazy                
-        $("#features-list").append("<li><a href='#" + headingId + "'>" + $(this).text() +
+        $("#features-list").append("<li><a class='js-scroll-trigger' href='#" + headingId + "'>" + $(this).text() +
             "</a></li>");
 
     });
