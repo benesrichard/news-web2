@@ -1,0 +1,26 @@
+{% if display_version == "Fenix" %}
+<div class="logo">
+    <div class="center">
+        <a href="{{ root_url }}/fenix.html"><img class="main-logo-image" src="{{ root_url }}/img/fenix.png"></a>
+        <a href="{{ root_url }}/kiwi.html"><img class="other-logo-image" src="{{ root_url }}/img/kiwi.png"></a>
+    </div>
+</div>
+{% endif %}
+
+{% if display_version == "Kiwi" %}
+<div class="logo">
+    <div class="center">
+        <a href="{{ root_url }}/fenix.html"><img class="other-logo-image" src="{{ root_url }}/img/fenix.png"></a>
+        <a href="{{ root_url }}/kiwi.html"><img class="main-logo-image" src="{{ root_url }}/img/kiwi.png"></a>
+    </div>
+</div>
+{% endif %}
+
+{% if display_version == "KiwiFenix" %}
+<div class="logo">
+    <div class="center">
+        <a href="{{ root_url }}/fenix.html"><img class="main-logo-image" src="{{ root_url }}/img/fenix.png"></a>
+        <a href="{{ root_url }}/kiwi.html"><img class="main-logo-image" src="{{ root_url }}/img/kiwi.png"></a>
+    </div>
+</div>
+{% endif %}
