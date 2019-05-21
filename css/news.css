@@ -227,11 +227,20 @@
   
   #main-content img,
   video {
-    max-width: 100vh;
+    max-width: 100%;
   }
 
   .minified-heading {
     color: #fff;
     font-size: 2rem;
     font-weight: 700;
+  }
+
+  @media (max-width: 991px){
+    .subheading {
+      margin: 1rem;
+    }
+    ul {
+      padding-left: 1rem;
+    }
   }
