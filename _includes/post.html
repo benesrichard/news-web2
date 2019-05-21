@@ -8,28 +8,28 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  {% if display_version == "kiwi" %}  
+  {% if display_version == "kiwi" %}
   <title>Kiwi - Verze {{ page.title }} - {{ page.date | date: "%d.%m.%Y" }}</title>
   <link rel="apple-touch-icon" sizes="57x57" href="{{site.url}}/img/icons/kiwi/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="{{site.url}}/img/icons/kiwi/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="{{site.url}}/img/icons/kiwi/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="{{site.url}}/img/icons/kiwi/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="{{site.url}}/img/icons/kiwi/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="{{site.url}}/img/icons/kiwi/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="{{site.url}}/img/icons/kiwi/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="{{site.url}}/img/icons/kiwi/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="{{site.url}}/img/icons/kiwi/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="{{site.url}}/img/icons/kiwi/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="{{site.url}}/img/icons/kiwi/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="{{site.url}}/img/icons/kiwi/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="{{site.url}}/img/icons/kiwi/favicon-16x16.png">
-<link rel="manifest" href="{{site.url}}/img/icons/kiwi/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="{{site.url}}/img/icons/kiwi/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{site.url}}/img/icons/kiwi/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{site.url}}/img/icons/kiwi/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{site.url}}/img/icons/kiwi/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{site.url}}/img/icons/kiwi/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{site.url}}/img/icons/kiwi/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{site.url}}/img/icons/kiwi/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{site.url}}/img/icons/kiwi/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{site.url}}/img/icons/kiwi/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{site.url}}/img/icons/kiwi/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{site.url}}/img/icons/kiwi/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{site.url}}/img/icons/kiwi/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{site.url}}/img/icons/kiwi/favicon-16x16.png">
+  <link rel="manifest" href="{{site.url}}/img/icons/kiwi/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="{{site.url}}/img/icons/kiwi/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
   {% endif %}
 
-  {% if display_version == "fenix" %}  
+  {% if display_version == "fenix" %}
   <title>Fenix - Verze {{ page.title }} - {{ page.date | date: "%d.%m.%Y" }}</title>
   <link rel="apple-touch-icon" sizes="57x57" href="{{site.url}}/img/icons/fenix/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="{{site.url}}/img/icons/fenix/apple-icon-60x60.png">
@@ -40,7 +40,7 @@
   <link rel="apple-touch-icon" sizes="144x144" href="{{site.url}}/img/icons/fenix/apple-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="152x152" href="{{site.url}}/img/icons/fenix/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="{{site.url}}/img/icons/fenix/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="{{site.url}}/img/icons/fenix/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{site.url}}/img/icons/fenix/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="{{site.url}}/img/icons/fenix/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="{{site.url}}/img/icons/fenix/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="{{site.url}}/img/icons/fenix/favicon-16x16.png">
@@ -65,37 +65,39 @@
 
 <body id="page-top">
 
-    {% include navigation.html %}
+  {% include navigation.html %}
 
-    <div class="container-fluid p-0">
-            <section class="resume-section p-3 p-lg-5 d-flex" id="about">
-               <div class="w-100">                    
-                 <h1 class="mb-0">Verze {{ page.title }} - <span class="text-primary">{{ page.date | date: "%d.%m.%Y" }}</span></h1>       
-                 <div class="subheading">Seznam změn:</a>
-                   <ul id="features-list">
-                    
-                   </ul>
-                 </div>
-         
-                 <div id="main-content">
-                        {{ content }}
-                </div>
-                </div>
-                </section>
-                </div>
+  <div class="container-fluid p-0">
+    <section class="resume-section p-3 p-lg-5 d-flex" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Verze {{ page.title }} - <span class="text-primary">{{ page.date | date: "%d.%m.%Y" }}</span>
+        </h1>
+        <div class="subheading">Seznam změn:</a>
+          <ul id="features-list">
+
+          </ul>
+        </div>
+
+        <div id="main-content">
+          {{ content }}
+        </div>
+      </div>
+    </section>
+  </div>
 
 
 
 
- <!-- Bootstrap core JavaScript -->
- <script src="{{site.url}}/vendor/jquery/jquery.min.js"></script>
- <script src="{{site.url}}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{site.url}}/vendor/jquery/jquery.min.js"></script>
+  <script src="{{site.url}}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
- <!-- Plugin JavaScript -->
- <script src="{{site.url}}/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="{{site.url}}/vendor/jquery-easing/jquery.easing.min.js"></script>
 
- <!-- Custom scripts for this template -->
- <script src="{{site.url}}/js/news.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="{{site.url}}/js/news.js"></script>
 
 </body>
+
 </html>
