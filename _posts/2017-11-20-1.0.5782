@@ -1,0 +1,8 @@
+﻿---
+categories: [fenix]
+layout: fenix
+---
+## Optimalizace Reachových křivek ve více bodech
+V Reachových křivkách je nyní možné provádět optimalizace křivek ve více bodech, které je možné ručně navolit v optimalizovaných křivkách.
+
+![reachovky2]({{site.url}}/data/reachovky2.png "Optimalizace Reachových křivek ve více bodech")
