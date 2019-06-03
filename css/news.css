@@ -253,3 +253,13 @@
   a.nav-link:hover {
     color: rgba(255,255,255,1) !important;
   }
+
+  .scrollbar-inner > .scroll-element .scroll-element_track {
+    background-color: #c0c0c0;
+    opacity: .8;
+  }
+
+  .scrollbar-dynamic > .scroll-element .scroll-bar {
+    background-color: #fff;
+    opacity: .8;
+  }

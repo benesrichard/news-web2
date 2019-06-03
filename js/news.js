@@ -67,12 +67,16 @@ $(document).ready(function () {
    
     if(urlParams.theme == "dark")
     {
-        $('#dark-css').attr('rel', 'stylesheet');        
+        $('#dark-css').attr('rel', 'stylesheet');              
+    }
+
+    if (urlParams.theme == "light" || urlParams.theme == "dark")
+    {
         $('.img-logo').remove();
 
         $('.nav-link').each(function(){
             var originalHref = $(this).attr('href');
-            $(this).attr('href', originalHref + '?theme=dark');
+            $(this).attr('href', originalHref + '?theme=' + urlParams.theme);
         });
     }
 
