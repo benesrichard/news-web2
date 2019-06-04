@@ -37,6 +37,7 @@
 
     gtag('config', 'UA-117520002-1');
     </script>
+    
 
     {% if display_version == "fenix" %}
     <title>Fenix - Novinky v software</title>    
@@ -68,6 +69,8 @@
 
 <body id="page-top">
 
+    <div id="loading" style="display: none;">Načítání ...</div>    
+    <div id="main-content" style="display: none;">    
     {% include navigation.html %}
 
 
@@ -117,7 +120,8 @@
     {% endfor %}
     {% endif %}
 
-
+    </div>
+    <script src="{{ site.url }}/js/preload.js"></script>    
 
     <!-- Bootstrap core JavaScript -->
     <script src="{{site.url}}/vendor/jquery/jquery.min.js"></script>
