@@ -30,76 +30,82 @@
   <meta name="theme-color" content="#ffffff">
   {% endif %}
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117520002-1"></script>
-    <script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117520002-1"></script>
+  <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-117520002-1');
-    </script>
+  </script>
 
   {% if display_version == "fenix" %}
   <title>Fenix - Verze {{ page.title }} - {{ page.date | date: "%d.%m.%Y" }}</title>
   <link rel="apple-touch-icon" sizes="180x180" href="{{site.url}}/img/icons/fenix/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="{{site.url}}/img/icons/fenix/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{site.url}}/img/icons/fenix/32x32.png">    
+  <link rel="icon" type="image/png" sizes="32x32" href="{{site.url}}/img/icons/fenix/32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="{{site.url}}/img/icons/fenix/16x16.png">
-  <link rel="manifest" href="/site.webmanifest">    
+  <link rel="manifest" href="/site.webmanifest">
   {% endif %}
 
-   <!-- Bootstrap core CSS -->
-   <link href="{{site.url}}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-   
-    <!-- Custom fonts for this template   -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700&subset=latin-ext" rel="stylesheet">    
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i&subset=latin-ext" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="{{site.url}}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
-   <link href="{{site.url}}/vendor/jquery-scrollbar/jquery.scrollbar.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template   -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700&subset=latin-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i&subset=latin-ext" rel="stylesheet">
 
-   <!-- Custom styles for this template -->
-   <link href="{{site.url}}/css/news.css" rel="stylesheet">   
-   <link href="{{site.url}}/css/dark.css" id="dark-css" rel="stylesheet alternate">
+
+  <link href="{{site.url}}/vendor/jquery-scrollbar/jquery.scrollbar.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{{site.url}}/css/news.css" rel="stylesheet">
+  <link href="{{site.url}}/css/dark.css" id="dark-css" rel="stylesheet alternate">
 </head>
 
 <body id="page-top">
 
-  {% include navigation.html %}
+  <div id="main-content" style="display: none;">
 
-  <div class="container-fluid p-0">
-    <section class="resume-section p-3 p-lg-5 d-flex" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Verze {{ page.title }}</h1>
-        <h3><span class="text-primary">{{ page.date | date: "%d.%m.%Y" }}</span></h3>
-        <div class="subheading">Seznam změn:</a>
-          <ul id="features-list">
+    {% include navigation.html %}
 
-          </ul>
+    <div class="container-fluid p-0">
+      <section class="resume-section p-3 p-lg-5 d-flex" id="about">
+        <div class="w-100">
+          <h1 class="mb-0">Verze {{ page.title }}</h1>
+          <h3><span class="text-primary">{{ page.date | date: "%d.%m.%Y" }}</span></h3>
+          <div class="subheading">Seznam změn:</a>
+            <ul id="features-list">
+
+            </ul>
+          </div>
+
+          <div id="main-content">
+            {{ content }}
+          </div>
         </div>
-
-        <div id="main-content">
-          {{ content }}
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </div>
+  <script src="{{ site.url }}/js/preload.js"></script>    
 
 
 
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{site.url}}/vendor/jquery/jquery.min.js"></script>
+  <script src="{{site.url}}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="{{site.url}}/vendor/jquery/jquery.min.js"></script>
-    <script src="{{site.url}}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="{{site.url}}/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="{{site.url}}/vendor/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="{{site.url}}/vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="{{site.url}}/vendor/jquery-scrollbar/jquery.scrollbar.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="{{ site.url }}/js/news.js"></script>    
+  <!-- Custom scripts for this template -->
+  <script src="{{ site.url }}/js/news.js"></script>
 
 </body>
 

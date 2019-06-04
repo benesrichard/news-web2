@@ -25,8 +25,7 @@ function getJsonFromUrl(e) {
 urlParams = getJsonFromUrl(location.search);
 
 if(urlParams.theme == "dark" || urlParams.theme == "light")
-{
-    document.getElementById("loading").style.display = "block";
+{    
     document.getElementById("main-content").style.display = "none";
     if(urlParams.theme == "dark")
     {
@@ -34,7 +33,6 @@ if(urlParams.theme == "dark" || urlParams.theme == "light")
     }
 }
 else
-{
-    document.getElementById("loading").style.display = "none";
+{    
     document.getElementById("main-content").style.display = "block";
 }
