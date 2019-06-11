@@ -1,0 +1,16 @@
+﻿---
+categories: [fenix]
+layout: fenix
+---
+## Ctrl+O
+V souhrnu je nyní možné pomocí zkratky Ctrl + O přizpůsobit šířku sloupců, a to bez ohledu na šířku nadpisů, 
+tak aby se zobrazily veškeré hodnoty.
+<video src="{{site.url}}/data/2_CTRLO.mp4" type="video/mp4" controls></video>
+
+## Ctrl+C a Ctrl+V
+Ze všech tabulek napříč celým Fenixem je nyní možné kopírovat a následně vkládat pomocí klasických zkratek Ctrl+C a Ctrl+V, 
+například do tabulky Excel.
+
+## Barvy dnů v týdnu 
+V detailním plánu je nyní možné barevně odlišit jednotlivé dny v týdnu. Tato funkce se zapíná v menu "Ukazatele".
+<video src="{{site.url}}/data/6_barvydnu.mp4" type="video/mp4" controls></video>
