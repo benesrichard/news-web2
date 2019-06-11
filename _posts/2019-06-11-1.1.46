@@ -2,6 +2,7 @@
 categories: [fenix]
 layout: fenix
 ---
+
 ## Ctrl+O
 V souhrnu je nyní možné pomocí zkratky Ctrl + O přizpůsobit šířku sloupců, a to bez ohledu na šířku nadpisů, 
 tak aby se zobrazily veškeré hodnoty.
