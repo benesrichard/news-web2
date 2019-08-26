@@ -4,22 +4,21 @@ layout: fenix
 ---
 ## Souhrn
 Souhrn obsahuje následující ukazatele:
-Médiatyp - může obsahovat TV, Rádio, Internet
-Médium - Třídí se dle media (v "Strategickém plánu" zachová skupiny, v "Detailním plánu" média rozpadá)
-Část dne - V strategických fázich plánování nedovolujeme dayparty přenastavit. Jedná se tedy o proměnou, která vytvoří "Části dne" ze zadnání.
-Period (Období - absolutně) - summarizuje podle absolutní periody zadané uživatelem, default je celé období
-DayOfTheWeek (Den v týdnu)
-Footage (Stopáž) - u tv, a rádia summarizuje přímo podle stopáže (tedy defaultně např 30), u tisku a internetu summarizuje do speciálních popisku "Internet" a "Tisk", protože interně má internet a tisk stopáž 30, ale nedává smysl aby padli k TV/Rádiu
-Note (Poznámka)
-Contract (Smlouva)
-Mutation (Mutace)
-BuyingDaypart (Nákupní část dne)
-Figures (Ukazatele) - nesumarizuje ale vytvoří tolik řádek/sloupců kolik uživatel vybral ukazatelů (grp, trp, cena...), dává smysl pouze u tabulky
-Priorities (Priority) - vezme všechny řádky z priorit včetně jednotlivých priorit na období, nedává smysl u grafu
-MediaGroup (Skupina) - pokud máme např Nova Grooup a Nova tak Nova bloky bez skupiny spadnou do ostatní
-PriorityPeriod (Období - priority) - nachází se pouze v "Detailním plánu". Tvoří se dle priorit na období určené v optimalizaci
-PeriodRelative (Období - relativně) - summarizuje podle vybraného relativní období, umožňujeme vybrat Den, Plánovaný týden, Kalendářní týden, Měsíc
-
+"Médiatyp" - může obsahovat TV, Rádio, Internet
+"Médium "- Třídí se dle media (v "Strategickém plánu" zachová skupiny, v "Detailním plánu" média rozpadá)
+"Část dne" - V strategických fázich plánování není možné dayparty přenastavit. Jedná se tedy o proměnou, která vytvoří "Části dne" ze zadnání.
+"Den v týdnu"
+"Stopáž" - u tv, a rádia summarizuje přímo podle stopáže (tedy defaultně např 30), u tisku a internetu summarizuje do speciálních popisku "Internet" a "Tisk", protože interně má internet a tisk stopáž 30, ale nedává smysl aby padli k TV/Rádiu
+"Poznámka" - Uživatelem zadaná poznámka
+"Smlouva" - Uživatelem zadané číslo smlouvy
+"Mutace"
+"Nákupní část dne" - 
+"Ukazatele" - nesumarizuje ale vytvoří tolik řádek/sloupců kolik uživatel vybral ukazatelů (grp, trp, cena...), dává smysl pouze u tabulky
+"Priority"- vezme všechny řádky z priorit včetně jednotlivých priorit na období, nedává smysl u grafu
+"Skupinaů - pokud máme např Nova Grooup a Nova tak Nova bloky bez skupiny spadnou do ostatní
+"Období - priority" - nachází se pouze v "Detailním plánu". Tvoří se dle priorit na období určené v optimalizaci
+"Období - relativně" - zobrazuje se dle vybraného relativní období, umožňujeme vybrat Den, Plánovaný týden, Kalendářní týden, Měsíc
+"Období - absolutně" - zobrazuje se dle absolutní periody zadané uživatelem, default je celé období
 
 V souhrnném okně se proměnná "Období" rozdělila na tři nové typy: "Období - priority" (pouze v detailním plánu, sumarizuje podle priorit na období v optimalizaci), 
 "Období - absolutní"(sumarizuje podle absolutní periody zadané uživatelem, defaultně je nastavené celé období), 
