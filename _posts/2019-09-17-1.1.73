@@ -1,0 +1,10 @@
+﻿---
+categories: [fenix]
+layout: fenix
+---
+## Požadavek pro ukazatele v okně souhrnu 
+V Souhrném okně je nově možné vyplnit Uživatelem požadovanou hodnotu pro jednotlivé ukazatele. 
+U vybraného ukazatele Uživatel zaškrtne "zaškrtávací pole" pro konkkrétní požadavek.
+Následně se požadovaná hodnota ukazatele zapíše přímo do tabulky v okně souhrnu. 
+Rozdíl vůči aktualnímu stavu se automaticky dopočítá a zobrazí se jako &quot;Rozdíl&quot;.
+<video src="{{site.url}}/data/souhrn_pozadavek.mp4" type="video/mp4" controls></video>
