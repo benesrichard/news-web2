@@ -1,0 +1,11 @@
+﻿---
+categories: [fenix]
+layout: fenix
+---
+## Strategický plán - počet všech bloků 
+Nově byl u "Strategického plánu" přidán ukazatel "Počet všech bloků", který zobrazuje počet zdrojových bloků bez ohledu na aplikované podmínky.
+<video src="{{site.url}}/data/pocet_vsech_bloku.mp4" type="video/mp4" controls></video>
+
+## Reachové křivky - zobrazení grafu v souhrnu
+Nově při kliknutí na bod v grafu rechových křivek dojde k zobrazení adekvátních hodnot v souhrnném okně.
+<video src="{{site.url}}/data/reach_souhrn.mp4" type="video/mp4" controls></video>
