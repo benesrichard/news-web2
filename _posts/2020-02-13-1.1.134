@@ -1,0 +1,18 @@
+﻿---
+categories: [fenix]
+layout: fenix
+---
+## Priority/Optimalizace - nastavení poměru s "0" 
+Nově lze u nastavení priorit a optimalizece nastavit pomeř s noulou "0". 
+Pokud chceme dodržet přesně "0" pro vybranou podmínku, tak je nutné mít toleranci nastavenou na nulu.
+<video src="{{site.url}}/data/priorita0.mp4" type="video/mp4" controls></video>
+
+## Zdrojové bkoky - počet 
+Nově se v ukazatelích zobrazují počty zdrojových bloků pokud aplikuji nějakou podmínku v "Nastavení podmínek".
+Zobrazují se způsobem, že před lomítkem jsou bloky, na které byly aplikovány podmínky a za lomítkém jsou celkově dostupné bloky.
+Pokud chceme dodržet přesně "0" pro vybranou podmínku, tak je nutné mít toleranci nastavenou na nulu.
+<video src="{{site.url}}/data/PZB.mp4" type="video/mp4" controls></video>
+
+## Web packy a subweby - přidávání v editoru částí dnů 
+Nově je možné v editoru částí dnů přidávat celkové web packy a zároveň jejich jednotlivé subweby.
+<video src="{{site.url}}/data/webpack.mp4" type="video/mp4" controls></video>
