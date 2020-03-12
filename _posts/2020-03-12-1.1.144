@@ -1,0 +1,21 @@
+﻿---
+categories: [fenix]
+layout: fenix
+---
+## Bundle - Detailní plán 
+V Prioritách Detailního plánu je nově možné nastavit si uživatelský "Bundle" pro skupiny médií, které jsme použili v plánu. 
+Zobrazuje se výchozí hodnota a uživatelská hodnota, kterou můžeme upravit, ale vždy můsí být součet 100%. 
+Také je zde možnost bundle úplně vypnout pomocí zaškrtáváčku. 
+<video src="{{site.url}}/data/bundle_priority.mp4" type="video/mp4" controls></video>
+
+## Subweb - nákupní podmínky 
+Nově máme možnost v nákupních podmínkách definovat cenu pro jednotlivé subweby (podweby), které patří pod nějaký topweb.
+<video src="{{site.url}}/data/NP_subweb.mp4" type="video/mp4" controls></video>
+
+## Webpack/internet - rozdělené zobrazení
+Webpacky se nově zobrazují odděleně od mediatypu internet v nákupních podmínkách i editoru částí dnů.
+<video src="{{site.url}}/data/pack_internet_oddeleno.mp4" type="video/mp4" controls></video>
+
+## Reachové křivky - nezobrazení
+Pokud dojde k tomu, že není možné zorazit žádnou z nastavených reachových křivek,
+tak je o tom uživatel informován hláškou a nedojde k přechodu na okno grafu reachových křivek.
