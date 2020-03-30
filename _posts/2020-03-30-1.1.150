@@ -1,0 +1,8 @@
+﻿---
+categories: [fenix]
+layout: fenix
+---
+## Souhrnné okno  - zoom
+V souhrnném okně je nově možné si zvětšit nebo zmenšit obsah pomocí přepínače Velikost. Zároveň zde funguje  možnost použít klávesu Ctrl + kolečko myši.
+<video src="{{site.url}}/data/zoom_souhrn.mp4" type="video/mp4" controls></video>
+
