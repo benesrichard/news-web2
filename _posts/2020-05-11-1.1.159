@@ -1,0 +1,7 @@
+﻿---
+categories: [fenix]
+layout: fenix
+---
+## CMPA - Efektivní reach médií - výběr, řazení, vykreslení  
+V CMPA je nově vylepšé ovládání pro výběr médií. Bylo přidáno řazení, podkreslení tlačítka vykreslit a hromadný výběr médií pomocí klávesi Ctrl nebo Select.
+<video src="{{site.url}}/data/CMPA_vyber_a_spocist.mp4" type="video/mp4" controls></video>
