@@ -1,0 +1,27 @@
+﻿---
+categories: [fenix]
+layout: fenix
+---
+## Strategický plán - nový GUI
+Ve strategickém plánu je nyní nové grafické rozhraní pro zadání plánu. 
+Na staré rozhraní je možné přepnout pomocí ikony v pravém horním rohu.
+<video src="{{site.url}}/data/Novy_GUI.mp4" type="video/mp4" controls></video>
+
+## Postanalýza - výběr dokoupených
+V Postanalýze byla vylepšena logika výběru spotů. Při zaškrtnutí dokoupených spotů se spot zároveň označí jako vybraný.
+Pokud odznačíme vybraný, tak dojde k odznačení i spotu dokoupeného.
+<video src="{{site.url}}/data/Dokoupeny_vybrany.mp4" type="video/mp4" controls></video>
+
+## Editor části dnů - sloupec koef. cena
+Do editoru části dnů byl přidán sloupec koef. cena (koeficient cenny), do kterého je možné zadat slevu nebo příplatek pro libovolný daypart.
+<video src="{{site.url}}/data/koeficient_cena.mp4" type="video/mp4" controls></video>
+
+## Cílové skupiny - hromadné mazání a přesouvání
+V okně výběru cílových skupin je nyní možné mazat více řádků najednou a to výběrem přes Shift na Ctrl.
+Zároveň v okně výběru cílových skupin byla přidána možnost přetáhnout uživatelskou cílovou skupinu (upravenou na pravé straně) nalevo do seznamu cílových skupin. 
+Cílová skupina je vpravo odebrána a poze přenesena nalevo pokud uživatel nedrží klávesu CTRL.
+<video src="{{site.url}}/data/CS_kopie.mp4" type="video/mp4" controls></video>
+
+## Reachové křivky - ukazatel Affinita GRP
+Do souhrnného okna Reachových křivek byl přidán nový ukazatel Affinita GRP.
+<video src="{{site.url}}/data/Afinita_GRP.mp4" type="video/mp4" controls></video>
