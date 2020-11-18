@@ -18,11 +18,27 @@ Po zkopírování hodnot pomocí Ctrl + C tot umožňuje vložit do tabulky "Cen
 Zásadní podmínkou je, že při kopírování musí odpovídat počet sloupců v tabulce ze které kopírujeme s tabulkou do které vkládáme. 
 <video src="{{site.url}}/data/nazev_souboru.mp4" type="video/mp4" controls></video>
 
-## Vlozeni videa 
-Video vkládáme v následujícím formátu: 
+## RK - zobrazení křivek grafu
+Nově Tlačítko Skrýt vše v grafu RC nyní skrývá všechny křivky. 
+Pokud použijeme rozdělení Po mediatypech, objeví se navíc tlačítko Zobrazit výchzí, které zobrazí úplně všechny křivky v grafu.
 <video src="{{site.url}}/data/nazev_souboru.mp4" type="video/mp4" controls></video>
-Oproti předchozí verzi není potřeba uvádět velikost videa, protože si web v případě příliš velkého rozlišení sám upraví na správné.
+
+## RK - porušení Bundle při vykoupení
+V reachových křivkách je možné porušit Bundle při jeho vykoupení a byly přidány sloupce "Hladina" (TRP, GRP, Imprese).
+Tyto ukazatele zobrazují hodnotu, kterou se systém snaží investovat oproti stejným ukazatelům bez popisku "Hladina", které zobrazují skutečně proinvestované hodnoty. 
+Nové ukazatele byly přidány i do Sourhnu. 
+Pokud použijeme rozdělení Po mediatypech, objeví se navíc tlačítko Zobrazit výchzí, které zobrazí úplně všechny křivky v grafu.
+<video src="{{site.url}}/data/nazev_souboru.mp4" type="video/mp4" controls></video>
 
 ## Vkládání obrázků
 Obrázky vkládáme v následujícím formátu:
 ![Popis souboru]({{site.url}}/data/nazevsouboru.jpg "Popis souboru")
+
+## DP - přejmenování ukazatelů
+Lokální předvolby v Detailním plánu byly přejmenovány na Hromadnou úpravu. Jejich funkce byly zachovány.
+
+## DP - přejmenování Pozice na Blok pozice
+Nově byl v detailním plánu přejmenován ukazatel "Pozice" je přejmenovaný na "Blok pozice".
+
+## RK - zobrazení hodnot v plocha požadavku
+V ploše požadavku byla přidána mezera mezi tisíci v hodnotě požadavku pro zpřehlednění vysokých hodnot. Např. 1000 je nově zobrazeno jako 1 000.
