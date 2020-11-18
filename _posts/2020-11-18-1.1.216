@@ -1,0 +1,27 @@
+﻿---
+categories: [fenix]
+layout: fenix
+---
+## Vkládání obrázků
+Obrázky vkládáme v následujícím formátu:
+![Popis souboru]({{site.url}}/data/nazevsouboru.jpg "Popis souboru")
+
+## Vlozeni videa 
+Video vkládáme v následujícím formátu: 
+<video src="{{site.url}}/data/nazev_souboru.mp4" type="video/mp4" controls></video>
+Oproti předchozí verzi není potřeba uvádět velikost videa, protože si web v případě příliš velkého rozlišení sám upraví na správné.
+
+## Vlozeni videa 
+Video vkládáme v následujícím formátu: 
+<video src="{{site.url}}/data/nazev_souboru.mp4" type="video/mp4" controls></video>
+Oproti předchozí verzi není potřeba uvádět velikost videa, protože si web v případě příliš velkého rozlišení sám upraví na správné.
+
+## Vlozeni videa 
+Video vkládáme v následujícím formátu: 
+<video src="{{site.url}}/data/nazev_souboru.mp4" type="video/mp4" controls></video>
+Oproti předchozí verzi není potřeba uvádět velikost videa, protože si web v případě příliš velkého rozlišení sám upraví na správné.
+
+## Vlozeni videa 
+Video vkládáme v následujícím formátu: 
+<video src="{{site.url}}/data/nazev_souboru.mp4" type="video/mp4" controls></video>
+Oproti předchozí verzi není potřeba uvádět velikost videa, protože si web v případě příliš velkého rozlišení sám upraví na správné.
