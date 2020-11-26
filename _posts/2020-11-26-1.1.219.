@@ -3,9 +3,14 @@ categories: [fenix]
 layout: fenix
 ---
 ## RK - porušení Bundle při vykoupení
-V reachových křivkách je možné porušit Bundle při jeho vykoupení a byly přidány sloupce "Hladina" (TRP, GRP, Imprese).
-Tyto ukazatele zobrazují hodnotu, kterou se systém snaží investovat oproti stejným ukazatelům bez popisku "Hladina", které zobrazují skutečně proinvestované hodnoty. 
+V reachových křivkách je možné porušit Bundle při jeho vykoupení a zároveň byly přidány sloupce "Hladina" (TRP, GRP, Imprese).
+Tyto ukazatele při vykoupení zobrazují hodnotu, kterou se systém snaží investovat oproti stejným ukazatelům bez popisku "Hladina", které zobrazují skutečně proinvestované hodnoty. 
 Nové ukazatele byly přidány i do Souhrnu. 
 Pokud použijeme rozdělení Po mediatypech, objeví se navíc tlačítko Zobrazit výchozí, které zobrazí úplně všechny křivky v grafu.
 ![Popis souboru]({{site.url}}/data/vykoupeno.jpg "Popis souboru")
 
+## Ostatní novinky
+<ul><li> Bundle SP - opraven výpočet reache pro skupiny s bundlem ve strategickém plánu.</li>
+<li> Optimalizace RK - pokud optimalizace v reachových křivkách nenajde řešení, dojde v tabulce reachových křivek k odstranění čísel v nespočtených řádcích.</li>
+<li> Chyba ukládání FNX - soubory FNX s uloženou plochou požadavek z verze Fenix 209, které nešly ukládat v novějších verzích bez přepočtení, již lze uložit bez přepočítání.</li>
+<li> Přechod z RK do SP - opraven přechod z reachových křivek do strategického plánu. Především přenos skupin s bundlem.</li></ul>
