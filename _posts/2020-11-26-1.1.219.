@@ -1,0 +1,11 @@
+﻿---
+categories: [fenix]
+layout: fenix
+---
+## RK - porušení Bundle při vykoupení
+V reachových křivkách je možné porušit Bundle při jeho vykoupení a byly přidány sloupce "Hladina" (TRP, GRP, Imprese).
+Tyto ukazatele zobrazují hodnotu, kterou se systém snaží investovat oproti stejným ukazatelům bez popisku "Hladina", které zobrazují skutečně proinvestované hodnoty. 
+Nové ukazatele byly přidány i do Souhrnu. 
+Pokud použijeme rozdělení Po mediatypech, objeví se navíc tlačítko Zobrazit výchozí, které zobrazí úplně všechny křivky v grafu.
+![Popis souboru]({{site.url}}/data/vykoupeno.jpg "Popis souboru")
+
